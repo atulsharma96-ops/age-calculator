@@ -1,0 +1,72 @@
+
+.div {
+    height: auto;
+    width: 28vw;
+    border: 1px solid black;
+    margin: 10vh;
+    overflow: hidden;
+    background-color: rgb(253, 205, 213);
+}
+
+.img {
+    height: 35vh;
+    width: 15vw;
+    object-fit: cover;
+    background-color: rgb(253, 205, 213);
+}
+
+.img img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    /* object-position: top; */
+}
+
+.img1 {
+    height: auto;
+    width: 100%;
+    background: linear-gradient(to right, rgb(252, 172, 185) 30%, rgb(250, 230, 230) 100%);
+    border-radius: 70px 70px 0px 0px;
+}
+
+#currentdate {
+    background-color: #fff;
+}
+
+#btn {
+    background-color: #ff0000;
+    transition: ease-out 0.3s;
+}
+
+#btn:hover {
+    background-color: #dd0101;
+    transition: ease-in 0.3s;
+}
+
+#userdate:focus {
+    border: none;
+    outline: none;
+}
+
+#para {
+    font-size: 17px;
+    line-height: 20px;
+    word-spacing: 1px;
+}
+
+#bday {
+    font-size: 17px;
+    line-height: 20px;
+}
+
+@media (max-width:620px) {
+    .div {
+        height: auto;
+        width: 100%;
+    }
+
+    .img {
+        height: 25vh;
+        width: 50vw;
+    }
+}
