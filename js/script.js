@@ -12,7 +12,7 @@ let year = today.getFullYear();
 console.log(year);
 
 function currentDate() {
-    document.getElementById("currentdate").innerHTML = `${day}-${month}-${year}<i class="fa-solid fa-calendar fw-semibold ms-3"></i>`;
+    document.getElementById("currentdate").innerHTML = `${day}-${month}-${year}`;
 }
 currentDate();
 
