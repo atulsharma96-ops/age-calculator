@@ -59,7 +59,7 @@
     line-height: 20px;
 }
 
-@media (max-width:620px) {
+@media (max-width:576px) {
     .div {
         height: auto;
         width: 100%;
